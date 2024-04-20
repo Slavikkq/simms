@@ -1,0 +1,210 @@
+/* HEADER */
+.page-header {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  max-width: 100%;
+  border-bottom: #6d6d6d 2px solid;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  background-color: #a3a3a3;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page-navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 207px;
+}
+.logo {
+  margin-right: 149px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #b16808;
+}
+.page-header-list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-right: 120px;
+}
+.page-header-list-item-link {
+  display: block;
+  padding-right: 0;
+  padding-left: 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #4d5ae5;
+  position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-address-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header-address-list-link {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-address-list-link-paragraph {
+  color: #000000;
+  font-weight: 700;
+  font-size: 15px;
+}
+/* HERO SECTION */
+.hero-section {
+  padding: 72px 0;
+  background-color: #2e2f42;
+  height: 432px;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/example.png);
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  background-position: center;
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-style: normal;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+  text-transform: capitalize;
+}
+.hero-section-button {
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+/*------------------------- PRODUCTS --------------------- */
+.our-products-section {
+  background-color: #a3a3a3;
+  padding: 120px 0;
+}
+.our-products-title {
+  padding-left: auto;
+  padding-right: auto;
+  margin-bottom: 72px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.our-products-list {
+  display: flex;
+  gap: 40px;
+}
+.products-list-item {
+  background-color: #ffffff;
+  height: 500px;
+  border-radius: 0px 0px 4px 4px;
+  border: #000000 1px solid;
+  width: calc((100% - 72px) / 4);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+.products-section-container {
+  padding: 32px 0;
+}
+.products-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.products-list-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.social-links-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-links-icons {
+  fill: #f4f4fd;
+}
+.social-links-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-links-link:hover,
+.social-links-link:focus {
+  background-color: #404bbf;
+}
+.socaial-links-icons {
+  fill: #f4f4fd;
+}
+.social-links-item {
+  width: 40px;
+  height: 40px;
+}
+.text-for-users {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 20px;
+}
